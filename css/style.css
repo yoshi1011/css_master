@@ -303,3 +303,14 @@ section {
   padding-bottom: 25px;
   font-size: 1.375em;
 }
+
+.btn-warning {
+  background-color: #f1de00;
+  color: #222;
+}
+
+.btn-warning:focus,
+.btn-warning:hover{
+  border-color: #f1de00;
+  color: #222;
+}
