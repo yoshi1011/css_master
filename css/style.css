@@ -245,6 +245,10 @@ textarea {
   }
 }
 
+.section {
+  margin: 20px 0;
+}
+
 .btn {
   display: inline flow-root;
   width: 300px;
@@ -264,6 +268,29 @@ textarea {
   background-color: #fff;
   border-color: currentColor;
   color: #e25c00;
+}
+
+.icon::before {
+  display: inline-block;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+.btn--arrow-right {
+  position: relative;
+  padding-right: 2em;
+  padding-left: 1.38em;
+}
+
+.btn--arrow-right::after {
+  font-family: "Font Awesome 6 Free";
+  font: var(--fa-font-solid);
+  content: "\f061";
+  position: absolute;
+  top: 50%;
+  right: .83em;
+  font-weight: 900;
+  transform: translateY(-50%);
 }
 
 .align-center {
