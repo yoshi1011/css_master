@@ -249,6 +249,10 @@ section {
   margin: 20px 0;
 }
 
+.align-center {
+  text-align: center;
+}
+
 .btn {
   display: inline flow-root;
   width: 300px;
@@ -293,6 +297,9 @@ section {
   transform: translateY(-50%);
 }
 
-.align-center {
-  text-align: center;
+.btn--large {
+  width: 340px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-size: 1.375em;
 }
