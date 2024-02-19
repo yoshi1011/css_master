@@ -275,3 +275,8 @@ section {
 .before-icon-btn--download::before {
   content: '\f019';
 }
+
+.before-icon-btn--zoom::before {
+  content: '\f00e';
+  transform: translateY(-6%)
+}
