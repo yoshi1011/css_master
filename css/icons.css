@@ -257,6 +257,18 @@ section {
   font-weight: 400;
 }
 
-.before-icon-pdf::before {
+.before-icon--pdf::before {
   content: '\f1c1';
+}
+
+.before-icon--excel::before {
+  content: '\f1c3';
+}
+
+.before-icon--power-point::before {
+  content: '\f1c4';
+}
+
+.before-icon--check-square::before {
+  content: '\f14a';
 }
