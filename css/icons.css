@@ -272,3 +272,12 @@ section {
 .before-icon--check-square::before {
   content: '\f14a';
 }
+
+.before-icon--chevron-left:before {
+  content: '';
+  width: .375em;
+  height: .375em;
+  border-bottom: .125em solid #e25c00;
+  border-left: .125em solid #e25c00;
+  transform: rotate(45deg) translateY(-30%);
+}
