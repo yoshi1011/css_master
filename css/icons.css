@@ -281,3 +281,20 @@ section {
   border-left: .125em solid #e25c00;
   transform: rotate(45deg) translateY(-30%);
 }
+
+.after-icon::after {
+  display: inline-block;
+  margin-left: .3em;
+  color: #e25c00;
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 900;
+}
+
+.after-icon--chevron-right::after {
+  content: '';
+  width: .375em;
+  height: .375em;
+  border-top: .125em solid #e25c00;
+  border-right: .125em solid #e25c00;
+  transform: rotate(45deg);
+}
